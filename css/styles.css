@@ -4,9 +4,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  padding: 25px;
-  padding-top: 50px;
-  font-size: 20px;
+  /* padding: 25px; */
+  /* padding-top: 50px; */
+  font-size: 18px;
   line-height: 1.30;
 }
 
@@ -37,7 +37,7 @@ h3 {
 }
 
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #434455;
 }
 
@@ -81,6 +81,10 @@ img {
   border-radius: 15px 0 15px 0;
 }
 
+.link-marker {
+  list-style: none;
+}
+
 .myInformation {
   margin-left: 40px;
   margin-right: 25px;
@@ -96,4 +100,10 @@ img {
 
 .list-item {
   padding-bottom: 10px;
+}
+
+.conteiner-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
